@@ -1,5 +1,6 @@
 import 'package:chatbox/chatroom.dart';
 import 'package:flutter/material.dart';
+import 'messagelist.dart';
 
 class Login_page extends StatefulWidget {
   const Login_page({super.key});
@@ -12,7 +13,6 @@ class _Login_pageState extends State<Login_page> {
   TextEditingController nameController = TextEditingController(); //controller for username textfield
   TextEditingController passwordController = TextEditingController(); //controller for password textfield
   
-  late String username;
   late String password;
 
   @override
